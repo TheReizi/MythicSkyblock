@@ -1,0 +1,11 @@
+name: MythicSkyblock
+version: '${version}'
+main: ru.reizi.ms.Main
+api-version: '1.15'
+prefix: ReiziPlugin
+depend: [ WorldEdit ]
+
+commands:
+  island:
+    description: Управление Skyblock островом
+    usage: /<command> create
